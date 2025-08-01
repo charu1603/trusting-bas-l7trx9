@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.box-grid {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.box {
+  margin: 4px;
+}
+.subbox {
+  height: 50px;
+  width: 50px;
+  border: 1px black solid;
+  margin: 6px;
+  cursor: pointer;
+  background-color: rgb(177, 148, 148);
+}
